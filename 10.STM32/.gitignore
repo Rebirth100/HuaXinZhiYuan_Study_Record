@@ -1,0 +1,43 @@
+# ================================
+# STM32 + Keil MDK 项目 .gitignore
+# ================================
+
+# --- Keil MDK 编译输出目录（整个文件夹都不要）---
+MDK-ARM/MyTimerPool/
+MDK-ARM/Objects/
+MDK-ARM/Listings/
+MDK-ARM/DebugConfig/
+
+# --- Keil MDK 个人配置文件（换电脑会失效）---
+MDK-ARM/*.uvguix.*
+MDK-ARM/*.uvoptx
+
+# --- J-Link 调试器日志与本地设置 ---
+MDK-ARM/JLinkLog.txt
+MDK-ARM/JLinkSettings.ini
+
+# --- 编译生成的列表文件（startup_xxx.lst）---
+MDK-ARM/*.lst
+
+# --- 临时文件 ---
+tree.txt
+
+# --- 通用编译产物（防止散落在其他目录）---
+*.o
+*.obj
+*.axf
+*.hex
+*.bin
+*.map
+*.crf
+*.d
+*.dep
+*.lnp
+*.sct
+*.htm
+*.build_log.htm
+*.bak
+
+# --- 系统文件 ---
+.DS_Store
+Thumbs.db
