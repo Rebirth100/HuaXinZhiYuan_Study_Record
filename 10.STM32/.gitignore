@@ -41,3 +41,16 @@ tree.txt
 # --- 系统文件 ---
 .DS_Store
 Thumbs.db
+
+# IAR EWARM 编译产物
+EWARM/Debug/
+EWARM/Release/
+EWARM/settings/
+EWARM/*.dep
+EWARM/*.o
+EWARM/*.a
+EWARM/*.out
+EWARM/*.map
+EWARM/*.lst
+EWARM/*.pbdabs
+EWARM/*.pbdabs*
